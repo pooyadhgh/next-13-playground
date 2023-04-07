@@ -1,10 +1,9 @@
-import Link from "next/link";
 import React from "react";
 
-const Home = () => {
+const About = () => {
   return (
     <>
-      <h1>Home</h1>
+      <h1>About</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sint
         temporibus nam necessitatibus nisi vitae ducimus enim, cupiditate, nihil
@@ -13,17 +12,8 @@ const Home = () => {
         nulla omnis nostrum ex? Porro illum voluptatibus molestias aut tempora
         fuga.
       </p>
-      <h2>Links</h2>
-      <ui>
-        <li>
-          <Link href='/about'>About</Link>
-        </li>
-        <li>
-          <Link href='/about/team'>Team</Link>
-        </li>
-      </ui>
     </>
   );
 };
 
-export default Home;
+export default About;
