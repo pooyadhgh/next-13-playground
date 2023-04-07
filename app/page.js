@@ -1,4 +1,5 @@
 import React from "react";
+import Counter from "./components/Counter";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         nulla omnis nostrum ex? Porro illum voluptatibus molestias aut tempora
         fuga.
       </p>
+      <Counter />
     </>
   );
 };
