@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 
 const Home = () => {
@@ -13,15 +12,6 @@ const Home = () => {
         nulla omnis nostrum ex? Porro illum voluptatibus molestias aut tempora
         fuga.
       </p>
-      <h2>Links</h2>
-      <ui>
-        <li>
-          <Link href='/about'>About</Link>
-        </li>
-        <li>
-          <Link href='/about/team'>Team</Link>
-        </li>
-      </ui>
     </>
   );
 };
